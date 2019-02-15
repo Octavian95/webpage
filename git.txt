@@ -1,0 +1,198 @@
+
+valea@DESKTOP-7MJFC65 MINGW64 ~
+$ cd Desktop/FirstWebPage/
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage
+$ ll
+total 128
+drwxr-xr-x 1 valea 197609      0 Feb  7 14:20  FirstWebPage/
+-rw-r--r-- 1 valea 197609    967 Jan 30 20:27  index.html
+-rw-r--r-- 1 valea 197609      0 Feb  7 14:17 'New Text Document.txt'
+-rw-r--r-- 1 valea 197609 125976 Sep 11 04:32  pic1.jpg
+-rw-r--r-- 1 valea 197609   1161 Jan 30 20:28  style.css
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage
+$ git clone https://github.com/Octavian95/FirstWebPage.git
+Cloning into 'FirstWebPage'...
+remote: Repository not found.
+fatal: repository 'https://github.com/Octavian95/FirstWebPage.git/' not found
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage
+$ git clone https://Octavian95@github.com/Octavian95/FirstWebPage.git
+Cloning into 'FirstWebPage'...
+remote: Repository not found.
+fatal: repository 'https://Octavian95@github.com/Octavian95/FirstWebPage.git/' not found
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage
+$ git clone https://github.com/Octavian95/FirstWebPage.git
+Cloning into 'FirstWebPage'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage
+$ cd FirstWebPage
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git branch
+* master
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git push
+Everything up-to-date
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'valea@DESKTOP-7MJFC65.(none)')
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git push
+Everything up-to-date
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ ll
+total 1
+-rw-r--r-- 1 valea 197609 17 Feb  7 14:44 test
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ nano test
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git push
+Everything up-to-date
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git pull
+Already up to date.
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   test
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'valea@DESKTOP-7MJFC65.(none)')
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git config --global user.name "Octavian95"
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'valea@DESKTOP-7MJFC65.(none)')
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   test
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git add .
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   test
+
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'valea@DESKTOP-7MJFC65.(none)')
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git config --global user.email "Octavian.val95@gmail.com"
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git commit -m "first commit"
+[master 8dca9fb] first commit
+ 1 file changed, 2 insertions(+)
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 249 bytes | 83.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Octavian95/FirstWebPage.git
+   eb6af10..8dca9fb  master -> master
+
+valea@DESKTOP-7MJFC65 MINGW64 ~/Desktop/FirstWebPage/FirstWebPage (master)
+$ git commit -m "first commit"/

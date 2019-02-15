@@ -1,0 +1,79 @@
+
+{
+	margin: 50;
+	padding: 10;
+}
+
+header {
+	background-image: url('pic1.jpg');
+	height: 101vh;
+	background-size: cover;
+	background-position: center;
+}
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li {
+	
+	display: inline-block;
+}
+.main-nav li a{
+
+	color: #e6e6e6;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: 'strong', 'sans-serif';
+	font-size:'15px' ;
+}
+.navbar-brand{
+	float: left;
+	margin-top: 30px;
+	list-style: none;
+}
+.navbar-brand li {
+	margin-left: 100%px;
+	font-size: 23px;
+	display: inline-block;
+}
+.navbar-brand li a {
+	color: #e6e6e6;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-family: 'strong', 'serif;'
+	font-size:'15px' ;
+}
+.row{
+	max-width: 1200px;
+	margin: auto;
+	width: 100%;
+
+}
+.hero{
+	position: absolute;
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+h3 {
+	margin-left: auto;
+	margin-right: auto;
+	color: #e6e6e6;
+	text-transform: uppercase;
+	font-size: 60px;
+	margin-top: 270px;
+	color: white;
+}
+
+.main-nav li a: hover {
+	border: 1px solid white;
+}
+
+.template p {
+	position: absolute;
+	color: #e6e6e6;
+
+}
