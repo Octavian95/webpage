@@ -1,7 +1,6 @@
 html, body {
 	margin: 0;
 	height: 100%;
-<<<<<<< HEAD
 }
 
 body {
@@ -30,17 +29,10 @@ body {
 
 }
 
-
-/*opacity: 0.5;
-    filter: alpha (opacity= 50);
-*/
-
 header {
 	overflow: hidden;
 }
 
-=======
-}
 image{
 	opacity: 0.5;
     filter: alpha (opacity= 50);
@@ -63,8 +55,9 @@ header {
 	overflow: hidden;
 }
 
->>>>>>> b8d9c4eddbad01e54e11fb8e13503d5d9ffbc7be
+
 .main-nav{
+	position: relative;
 	float: right;
 	list-style: none;
 	margin-top: 30px;
@@ -76,20 +69,21 @@ header {
 }
 
 .main-nav li a {
-<<<<<<< HEAD
+
 	color: white;
-=======
+
 	color: #e6e6e6;
->>>>>>> b8d9c4eddbad01e54e11fb8e13503d5d9ffbc7be
+
 	text-decoration: none;
 	padding: 5px 20px;
 	font-family: 'strong', 'sans-serif';
 	font-size:'15px';
 	cursor: pointer;
-	border: 0.5px solid white;
+	border: 0.5px transparent;
 }
 
 .navbar-brand{
+	position: relative;
 	float: left;
 	margin-top: 30px;
 	list-style: none;
@@ -118,7 +112,7 @@ header {
 }
 
 .hero h3{
-	position: absolute;
+	position: relative;
 	width: 90%;
 	text-align: center;
 	margin-left: 5%;
@@ -127,7 +121,6 @@ header {
 	text-transform: uppercase;
 	font-size: 50px;
 	margin-top: 270px;
-	font-weight: 
 }
 
 h3{
@@ -135,31 +128,36 @@ h3{
 	font-weight: "bold";
 	}
 
-<<<<<<< HEAD
-=======
-
-
-.template {
-	position: relative;
-	color:#e6e6e6 ;
-	width: 50% ;
-	text-align: center;
-	margin-top: 500px;
-	margin-left: 300px;
-	font-size: 12px
-	
->>>>>>> b8d9c4eddbad01e54e11fb8e13503d5d9ffbc7be
-
-
 .template{
+	margin-right: auto;
 	position: relative;
 	color:#e6e6e6 ;
 	width: 50% ;
-	text-align: center;
-	margin-top: 500px;
-	margin-left: 300px;
+	text-align: center!important;
+	margin-top: 200px;
+	margin-left:auto;
 	font-size: 10px;
 	font-family: "Merriweather","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Helvetica Neue","Arial","Noto Sans","sans-serif","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-	
 
+} 
+h1{
+	text-align: center!important;
+	font-size:1.15rem
+	}
+
+hr.divider{
+	position: relative;
+	max-width: 3.25rem;
+    border-width: .2rem;
+    border-color: #ff4000;
+}
+.my-4{
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+hr{
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.3);
 }
