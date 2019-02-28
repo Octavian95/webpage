@@ -8,6 +8,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	border-color: #28a745;
+	width: 100%
 	
 }
 
@@ -39,12 +40,13 @@ image{
 }
 
 body {
-	background-image: url('pic2.jpg');
+	
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: #fff;
 	border-color: #28a745;
+
 }
 
 /*opacity: 0.5;
@@ -113,31 +115,37 @@ header {
 
 .hero h3{
 	position: relative;
-	width: 90%;
+
 	text-align: center;
-	margin-left: 5%;
-	margin-right: auto;
+	margin: auto; 
 	color: #e6e6e6;
 	text-transform: uppercase;
-	font-size: 50px;
-	margin-top: 270px;
+	font-size: 45px;
+	margin-top: 350px;
+	margin-bottom: 1px;
+	font-family: "Merriweather Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	border: 1px;
 }
 
 h3{
-	font-family: "sans-serif";
+	border: 1px;
 	font-weight: "bold";
+	width: 70%;
 	}
 
 .template{
+	margin-bottom:1px;
 	margin-right: auto;
 	position: relative;
 	color:#e6e6e6 ;
 	width: 50% ;
 	text-align: center!important;
-	margin-top: 100px;
+	margin-top: 40px;
 	margin-left:auto;
-	font-size: 10px;
+	font-size:;
 	font-family: "Merriweather","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Helvetica Neue","Arial","Noto Sans","sans-serif","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	line-height: 1.5;
+
 
 } 
 h1{
@@ -160,4 +168,28 @@ hr{
     margin-bottom: 1rem;
     border: 0;
     border-top: 1px solid rgba(0,0,0,.3);
+}
+.btn{
+	position: relative;
+	color: white;
+	text-decoration: none;
+    padding-top: 1.25rem;
+    padding-right: 2.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 2.25rem;
+	font-size: 14px;
+	cursor: pointer;
+	border: 13px;
+	background-color: #f4623a;
+	border-radius: 40px;
+	text-transform: uppercase;
+	font-weight:600;
+	font-family: "Merriweather Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+
+}
+.btn div, button {
+	margin-top: 20px;
+.col-sm-4{
+
 }
