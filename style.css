@@ -8,54 +8,45 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	border-color: #28a745;
-	width: 100%
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #fff;
 	
 }
 
 .img {
 	
-	background-image: url("pic2.jpg");
+    background-image: url("pic2.jpg");
+  	transition: top 0.5s;
+
+
 
 }
 .overlay:before{
-  position: absolute;
-  content:" ";
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  display: block;
-  z-index:0;
-  background-color: rgba(118, 92, 86, 0.67);
+
+	  position: absolute;
+	  content:" ";
+	  top:0;
+	  left:0;
+	  width:100%;
+	  height:100%;
+	  display: block;
+	  z-index:0;
+	  background-color: rgba(118, 92, 86, 0.67);
+	  	
+	  
 
 }
 
 header {
-	overflow: hidden;
-}
-
-image{
-	opacity: 0.5;
-    filter: alpha (opacity= 50);
-}
-
-body {
-	
-	background-size: cover;
-	background-position: center;
+	height: 100%;
+	overflow: auto;
 	background-repeat: no-repeat;
-	background-color: #fff;
-	border-color: #28a745;
-
-}
-
-/*opacity: 0.5;
-    filter: alpha (opacity= 50);
-*/
-
-header {
-	overflow: hidden;
-}
+	top: 0; /* Position the navbar at the top of the page */
+  	width: 100%; /* Full width */
+  	background-color: #fff;
+  	background-size: cover;
+  	background-position: center;}
 
 
 .main-nav{
@@ -79,9 +70,18 @@ header {
 	font-size:'15px';
 	cursor: pointer;
 	border-style: 1px;
-	border-color: white;
+	border-color: black;
 
 }
+ /* , Avatar Image */
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+background-image:  url("pic1.jpg");
+  }
 
 .navbar-brand{
 	position: relative;
@@ -192,53 +192,16 @@ hr{
 
 
 }
-.page-section {
-	position: relative;
+
+.page-section{
+	padding: 8rem ;
 	background-color: #f4623a!important;
-	padding: 10rem 0;
-	margin-top: 25.8rem; 
+	font-family: sans-serif;
 
 }
-hr.light{
-	position: relative;
-	max-width: 3.25rem;
-    border-width: .2rem;
-    border-color: white;
-
-}
-.needs{
-	color: #fff;
-	margin:0px;
+.whitetext{
 	font-size: 2rem;
-	margin-bottom: 5%;
-	text-align: center;
-	font-family: "Merriweather Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 	font-weight: 500;
-	line-height: 1.2;
-	margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-
-}
-.secbtn{
-	position: relative;
-	color: #212529;
-	text-decoration: uppercase;
-    padding-top: 1.25rem;
-    padding-right: 2.25rem;
-    padding-bottom: 1.25rem;
-    padding-left: 2.25rem;
-	font-size: 14px;
-	cursor: pointer;
-	border: 13px;
-	background-color: #fff;
-	border-radius: 40px;
-	text-transform: uppercase;
-	font-weight:730;
-	font-family: "Merriweather Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";	margin-left: 50%;
-
-
-
-
+	color: #fff!important;
+	text-align: center;
 }
