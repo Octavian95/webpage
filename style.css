@@ -1,6 +1,7 @@
 html, body {
 	margin: 0;
 	height: 100%;
+
 }
 
 body {
@@ -8,7 +9,9 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	border-color: #28a745;
-	width: 100%
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #fff;
 	
 }
 
@@ -47,18 +50,7 @@ header {
 }
 
 
-}
 
-body {
-	
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-color: #fff;
-	border-color: #28a745;
-	font-family: Arial, Helvetica, sans-serif;
-
-}
 
 /*opacity: 0.5;
     filter: alpha (opacity= 50);
@@ -201,4 +193,15 @@ hr{
 	margin-top: 20px;
 
 
+}
+.page-section{
+	padding: 8rem ;
+	background-color: #f4623a!important;
+	font-family: sans-serif;
+
+}
+.whitetext{
+	font-size: 2rem;
+	font-weight: 500;
+	color: #fff!important;
 }
