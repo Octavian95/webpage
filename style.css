@@ -17,14 +17,17 @@ body {
 
 .img {
 
-	background-image: url("pic2.jpg");
+	background-image: url("pic1.jpeg");
 	transition: top 0.5s;
+
+
 
 
 
 
 }
 .overlay:before{
+		
   position: absolute;
   content:" ";
   top:0;
@@ -33,11 +36,12 @@ body {
   height:100%;
   display: block;
   z-index:0;
-  background-color: rgba(118, 92, 86, 0.67);
+  background-color: rgba(118, 92, 86, 0.30);
 
 }
 
 header {
+	
 	height: 100%;
 	overflow: auto;
 	background-repeat: no-repeat;
@@ -71,7 +75,7 @@ header {
 
 .main-nav li a {
 
-	color: #1a1a1a;
+	color: rgba(255,255,255, 20);
 	text-decoration: none;
 	padding: 5px 20px;
 	font-family: 'strong', 'sans-serif';
@@ -83,7 +87,7 @@ header {
 }
 
 .navbar-brand{
-  	position: relative;
+  	position: fixed;
 	float: left;
 	margin-top: 20px;
 	list-style: none;
@@ -96,7 +100,7 @@ header {
 }
 
 .navbar-brand li a {
-	color: #1a1a1a;
+	color: #e6e6e6;
 	text-decoration: none;
     padding-top: 10px;
     padding-right: 10px;
