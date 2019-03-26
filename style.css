@@ -17,7 +17,8 @@ body {
 
 .img {
 
-	background-image: url("pic1.jpeg");
+
+	background-image: url("pic2.jpg");
 	transition: top 0.5s;
 
 
@@ -26,19 +27,7 @@ body {
 
 
 }
-.overlay:before{
-		
-  position: absolute;
-  content:" ";
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  display: block;
-  z-index:0;
-  background-color: rgba(118, 92, 86, 0.30);
 
-}
 
 header {
 	
@@ -52,6 +41,21 @@ header {
   	background-position: center;
 
 }
+.overlay:before{
+		
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(118, 92, 86, 0.35);
+
+}
+
+
 
 
 
@@ -85,9 +89,23 @@ header {
 	border-color: white;
 
 }
+img {
+    border-radius: 60%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;	
+    margin-top: 90px;
+	margin-right: 300px;
+	vertical-align: middle;
+  	width: 90px;
+  	height: 110px;
+  	padding: 20px 40px;
+  }
+
 
 .navbar-brand{
-  	position: fixed;
+  	position: relative;
 	float: left;
 	margin-top: 20px;
 	list-style: none;
@@ -208,4 +226,5 @@ hr{
 	font-size: 2rem;
 	font-weight: 500;
 	color: #fff!important;
+	text-align: center;
 }
