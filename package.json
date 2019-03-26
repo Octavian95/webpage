@@ -1,0 +1,26 @@
+{
+  "name": "firstwebpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Octavian95/webpage.git"
+  },
+  "author": "Octavian Valean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Octavian95/webpage/issues"
+  },
+  "homepage": "https://github.com/Octavian95/webpage#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "dependencies": {
+    "gulp-sass": "^4.0.2",
+    "sass": "^1.17.3"
+  }
+}

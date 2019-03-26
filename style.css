@@ -4,6 +4,7 @@ html, body {
 
 }
 
+
 body {
 	background-size: cover;
 	background-position: center;
@@ -17,21 +18,20 @@ body {
 
 .img {
 
-	
-    background-image: url("pic2.jpg");
-  	transition: top 0.5s;
+
+	background-image: url("pic2.jpg");
+	transition: top 0.5s;
+
+
+
+
+
 
 }
 
 
-
-
-
-
-
-
-
 header {
+	
 	height: 100%;
 	overflow: auto;
 	background-repeat: no-repeat;
@@ -41,26 +41,29 @@ header {
   	background-size: cover;
   	background-position: center;
 
-
 }
 .overlay:before{
 
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(118, 92, 86, 0.35);
 
-	  position: absolute;
-	  content:" ";
-	  top:0;
-	  left:0;
-	  width:100%;
-	  height:100%;
-	  display: block;
-	  z-index:0;
-	  background-color: rgba(118, 92, 86, 0.30);
-	}
-	  	
+}
+
+
+
+
+
+
 /*opacity: 0.5;
     filter: alpha (opacity= 50);
 */
-
 
 
 .main-nav{
@@ -76,57 +79,41 @@ header {
 }
 
 .main-nav li a {
-	color: rgba(255,255,255, 20);
 
+	color: black;
 	text-decoration: none;
 	padding: 5px 20px;
 	font-family: 'strong', 'sans-serif';
 	font-size:'15px';
 	cursor: pointer;
-	border-style: 1px;
-	border-color: black;
+
 
 }
-
-
-
-
-
-
-
-
-
-
-
 img {
-    border-radius: 60%;
-    background-size: 20px;
+    border-radius: 90%;
+    background-size: 50%;
     background-repeat: no-repeat;
     position: relative;
     cursor: pointer;	
-    margin-top: 90px;
-	margin-right: 300px;
-	vertical-align: middle;
-  	width: 90px;
-  	height: 110px;
-  	padding: 20px 40px;
+    margin-top: 20%;
+	margin-right: 0%;
+	margin-left: 42%;
+	padding: 0;
 
 
-    
-}
+	
 
 
 
+  }
 
 
-
-
-
-.navbar-brand{
-  	position: relative;
+.navbar-brand {
+  	position: absolute ;
 	float: left;
 	margin-top: 20px;
 	list-style: none;
+
 
 }
 
@@ -137,7 +124,7 @@ img {
 }
 
 .navbar-brand li a {
-	color: #e6e6e6;
+	color: black;
 	text-decoration: none;
     padding-top: 10px;
     padding-right: 10px;
@@ -146,26 +133,30 @@ img {
 	font-family: 'strong', 'serif;'
 	font-size:'15px' ;
 	cursor: pointer;
+
 }
 
-.row{
-	max-width: 1200px;
+.navbar {
 	margin: auto;
 	width: 100%;
+	border:10%;
+	position: fixed;
+	background-color: #e6e6e6;
 
 }
 
 .hero h3{
+	cursor: pointer;
 	position: relative;
 	text-align: center;
 	margin: auto; 
 	color: #e6e6e6;
 	text-transform: uppercase;
 	font-size: 30px;
-	margin-top: 300px;
+	margin-top: 20px;
+	margin-bottom: 1px;
 	font-family: "Merriweather Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-	border-style:1px;
-	border-color: white;
+
 }
 
 h3{
@@ -234,14 +225,10 @@ hr{
 
 
 }
-
-
 .page-section{
 	padding: 8rem ;
 	background-color: #f4623a!important;
 	font-family: sans-serif;
-
-
 
 }
 .whitetext{
@@ -249,5 +236,4 @@ hr{
 	font-weight: 500;
 	color: #fff!important;
 	text-align: center;
-
 }
