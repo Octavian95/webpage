@@ -1,5 +1,5 @@
 body {
-	background-color: blue;	
+	background-color: white;	
 
 	.navbar {
 		width: 100%;
@@ -17,3 +17,11 @@ body {
 		}
 	}
 } 
+@media only screen and (max-width: 600px) {
+	label {
+		display: block;
+		cursor: pointer;
+
+	}
+
+}
