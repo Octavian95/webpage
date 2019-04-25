@@ -9,34 +9,45 @@
    </head>
    <body >
       <header class="img overlay ">
-         <nav class="navbar navbar-default navbar-fised-top" role='navigation'>
-            <div class="row" >
-               <ul class= "main-nav">
-                  <li><a href="">ABOUT</a> </li>
-                  <li><a href="">SERICES</a> </li>
-                  <li><a href="">PORTFOLIO</a> </li>
-                  <li><a href="">CONTACT</a> </li>
-               </ul>
-               <div>
-                  <ul class="navbar-brand">
-                     <li class="active"><a href="">Octavian Valean</a></li>
-                  </ul>
-               </div>
-            </div>
-         </nav>
-                         <div class="Avatar">
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+         <section>
+         <center class="Avatar">
+
               
             <img src="pic1.JPEG" alt="Avatar" style="width:150px"
             style="font-size:2.8vw;">
-         </div>
-
+        
+         </center>
+</section>
       
          <div class="hero" >
             <h3 style="font-size:2.8vw;">
                Check My CV.
             </h3>
             <hr class="divider my-4">
-         </div>
+
          <div class="template">
             <div class="col-sm-4">
                <h1 class="h1">
@@ -45,6 +56,7 @@
                <button class="btn">Find Out More</button>
                 </div>
              </div>
+                      </div>
 
              
                </header>

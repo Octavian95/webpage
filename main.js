@@ -1,1 +1,1 @@
-alert('file linked');
+aler('file linked');
