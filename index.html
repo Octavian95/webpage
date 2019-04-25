@@ -1,80 +1,81 @@
 <!DOCTYPE HTML>
 <html>
-   <head class= ''>
-      <title>Octavian's BOOTSTRAP </title>
-      <link rel= " stylesheet" href="style.css" type="text/css">
-      <link rel= " stylesheet" href="css/app.css" type="text/css">
-      <script src="main.js"></script>
-       <meta  name="viewport" content="width=device-width, initial-scale=1">
+   <head>
+      <title>Octavian's BOOTSTRAP</title>
+      <link rel=" stylesheet" href="style.css" type="text/css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    </head>
-   <body >
-      <header class="img overlay ">
 
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+   <body>
+      <header>
+         <nav class="navbar" role='navigation'>
+            <div class="topnav" id="myTopnav">
+               <a href="#home" class="active">Home</a>
+               <a href="#news" class=" topnav-news ">News</a>
+               <a href="#contact" class="topnav-contact" >Contact</a>
+               <a href="#about" class="topnav-about" >About</a>
+               <a class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+               </a>
+            </div>
+         </nav>
+      </header>
 
-
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-         <section>
-         <center class="Avatar">
-
-              
-            <img src="pic1.JPEG" alt="Avatar" style="width:150px"
-            style="font-size:2.8vw;">
-        
-         </center>
-</section>
-      
-         <div class="hero" >
-            <h3 style="font-size:2.8vw;">
-               Check My CV.
-            </h3>
-            <hr class="divider my-4">
-
-         <div class="template">
-            <div class="col-sm-4">
-               <h1 class="h1">
-                 Front-End Developer
-               </h1>
-               <button class="btn">Find Out More</button>
-                </div>
-             </div>
-                      </div>
-
-             
-               </header>
-               <section class="page-section ">
-                  <div class="container">
-                     <div class="secdiv">
-                        <div class="text-center">
-                           <h2 class="whitetext">
-                              we've got what you need!
-                           </h2>
-                           <hr class="light my-4">
-                           <p>
-                              Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!
-                           </p>
-                           <a class="secbtn" href="#services"> Get started!</a>
-                        </div>
-                     </div>
+      <div class='container'>
+         <div class="overlay"></div>
+         <div class="noshadow" >
+            <div>
+                 <!-- <div class="avatar-img">
+                     <img src="images/pic1.jpg" alt="Avatar" style="width:200px" style="font-size:4.8vw ;">
+                  </div>-->
+            </div>
+            <div class="hero">
+                  <h1 style=" font-size: 3rem;">
+                        Front End Developer
+                  </h1>
+                  <hr class="divider my-4">
+            </div>
+            <div class="template">
+                  <div class="col-sm-4">
+                     <h1 class="h1-class">
+                           Check My C.V.
+                        </h1>
+                     <button class="btn">Find Out More</button>
                   </div>
-               </section>
+            </div>
+         </div>
+      </div>
+
+      <section class="page-section ">
+         <div class="contain">
+               <div class="secdiv">
+                  <div class="text-center">
+                     <h2 class="whitetext">
+                        we've got what you need!
+                     </h2>
+                     <hr class="light my-4">
+                     <p>
+                           Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!
+                     </p>
+                     <a class="secbtn" href="#services"> Get started!</a>
+                  </div>
+               </div>
+         </div>
+      </section>
+
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+         
+         </script>
+         
+      
    </body>
 </html>
