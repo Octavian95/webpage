@@ -51,7 +51,7 @@ html, body {
      
      width: 100%;
      z-index: 2;
-     position: absolute !important;
+     position: fixed !important;
      top: 0;
      left: 0;
      right: 0;    
@@ -213,14 +213,11 @@ html, body {
      border: 0;
      border-top: 1px solid rgba(0,0,0,.3);
 }
- .btn{
+.btn-1{
+     padding: 1.25rem 2.25rem;
      position: ;
      color: white;
      text-decoration: none;
-     padding-top: 1.25rem;
-     padding-right: 2.25rem;
-     padding-bottom: 1.25rem;
-     padding-left: 2.25rem;
      font-size: 14px;
      cursor: pointer;
      border: 13px;
@@ -229,20 +226,21 @@ html, body {
      text-transform: uppercase;
      font-weight:600;
      font-family: "Merriweather Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+     display: inline-block;
 }
 
-.btn:hover {
+.btn-1:hover {
  
-     background-color: #e6e6e6;
-     color: black;
+     background-color: #ff3700;
+     color: white;
      opacity: 9;
      transform: translateY(0px);
-     transition: all 0.8s;
+     transition: all 0.5s;
 }
- .btn div, button {
-     margin-top: 20px;
-}
- .page-section{
+
+ .page-section  {
+     display: inline-block;
+
       position: relative;
      padding: 8rem ;
      background-color: #f4623a!important;
@@ -251,6 +249,50 @@ html, body {
  .whitetext{
      font-size: 2rem;
      font-weight: 500;
-     color: #fff!important;
+     color: #f8f9fa!important;
      text-align: center;
 }
+
+.light {
+     position: relative;
+    max-width: 3.25rem;
+    border-width: .2rem;
+    border-color: #f8f9fa ;
+}
+.Section-p {
+     margin-top: 2.5rem!important;
+     margin-bottom: 2.5rem!important;
+     color: rgba(255,255,255,.5)!important;
+     text-align: center!important;
+     line-height: 1.5;
+     display: block;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     margin: 15%;
+
+}
+
+
+.secbtn-2{
+ 
+     font-size: .85rem;
+     font-weight: 700;
+     text-transform: uppercase;
+     border: none;
+     border-radius: 10rem;
+     text-align: center!important;
+     display: inline-block;
+     padding: 1.25rem 2.25rem;
+     background-color: #ffffff;
+     cursor: pointer;
+     color: #212529;
+
+}
+.secbtn-2:hover {
+ 
+     background-color: #c6cdd3;
+     color: #212529;
+     opacity: 9;
+     transform: translateY(0px);
+     transition: all 0.3s;
+
