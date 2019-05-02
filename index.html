@@ -1,79 +1,83 @@
 <!DOCTYPE HTML>
 <html>
-   <head class= ''>
-      <title>Octavian's BOOTSTRAP </title>
-      <link rel= " stylesheet" href="style.css" type="text/css">
-         <link rel= " stylesheet" href="css/app.css" type="text/css">
-            <script src="main.js"></script>
-            <meta  name="viewport" content="width=device-width, initial-scale=1">
-            </head>
-            <body >
-               <nav class="navbar navbar-default navbar-fised-top" role='navigation'>
-                  <div class="row" >
-                     <ul class= "main-nav">
-                        <label for="toggle">&#9776 </label>
-                        <input type="checkbox" id="toggle"/>
-                        <li>
-                           <a href="">ABOUT</a>
-                        </li>
-                        <li>
-                           <a href="">SERICES</a>
-                        </li>
-                        <li>
-                           <a href="">PORTFOLIO</a>
-                        </li>
-                        <li>
-                           <a href="">CONTACT</a>
-                        </li>
-                     </ul>
-                     <div>
-                        <ul class="navbar-brand">
-                           <li class="active">
-                              <a href="">Octavian Valean</a>
-                           </li>
-                        </ul>
-                     </div>
+   <head>
+      <title>Octavian's BOOTSTRAP</title>
+      <link rel=" stylesheet" href="style.css" type="text/css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+
+   <body>
+      <header>
+         <nav class="navbar" role='navigation'>
+            <div class="topnav" id="myTopnav">
+               <a href="#home" class="active">Home</a>
+               <a href="#news" class=" topnav-news ">News</a>
+               <a href="#contact" class="topnav-contact" >Contact</a>
+               <a href="#about" class="topnav-about" >About</a>
+               <a class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+               </a>
+            </div>
+         </nav>
+      </header>
+
+      <div class='container'>
+         <div class="overlay"></div>
+         <div class="noshadow" >
+            <div>
+                 <!-- <div class="avatar-img">
+                     <img src="images/pic1.jpg" alt="Avatar" style="width:200px" style="font-size:4.8vw ;">
+                  </div>-->
+            </div>
+            <div class="hero">
+                  <h1 style=" font-size: 3rem;">
+                        Front End Developer
+                  </h1>
+                  <hr class="divider my-4">
+            </div>
+            <div class="template">
+                  <div class="col-sm-4">
+                     <h1 class="h1-class">
+                           Check My C.V. Check out this amaizing website  "http://www.vtcreative.fr/
+                        </h1>
+                     <a class="btn-1">Find Out More</a>
                   </div>
-               </nav>
-               <header src="pic2.jpg" class="img overlay text-center masthead">
-                  <div class='container'>
+            </div>
+         </div>
+      </div>
+
+      <section class="page-section ">
+         <div class="contain">
+               <div class="secdiv">
+                  <div class="text-center">
+                     <h2 class="whitetext">
+                        we've got what you need!
+                     </h2>
+                     <hr class="light my-4">
+                     <p class="Section-p">
+                           Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!
+                     </p>
                      <center>
-                        <div class="Avatar-img">
-                           <img src="pic1.JPG" alt="Avatar" style="width:200px"
-                           style="font-size:4.8vw ;" />
-                        </div>
-                     </center>
-                     <div class="hero">
-                        <h3 style="font-size:2.8vw;">
-                      Front End Developer
-                  </h3>
-                        <hr class="divider my-4">
-                        </div>
-                        <div class="template">
-                           <div class="col-sm-4">
-                              <h1 class="h1">
-                          Check My C.V.
-                      </h1>
-                              <button class="btn">Find Out More</button>
-                           </div>
-                        </div>
-                     </div>
-                  </header>
-                  <section class="page-section ">
-                     <div class="contain">
-                        <div class="secdiv">
-                           <div class="text-center">
-                              <h2 class="whitetext">
-                              we've got what you need!
-                           </h2>
-                              <hr class="light my-4">
-                                 <p>
-                              Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!
-                           </p>
-                                 <a class="secbtn" href="#services"> Get started!</a>
-                              </div>
-                           </div>
-                        </div>
-                     </section>
-                  </body>
-               </html>
+                     <a class="secbtn-2" > Get started!</a>
+                  </center>
+                  </div>
+               </div>
+         </div>
+      </section>
+
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+         
+         </script>
+         
+      
+   </body>
+</html>
