@@ -240,10 +240,17 @@ html, body {
 
  .page-section  {
 
+     top: 0%;
+     bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    transition: .5s ease;
 
       position: relative;
      padding: 8rem ;
-     background-color: #f4623a!important;
+     background-color: #00c1af!important;
      font-family: sans-serif;
 }
  .whitetext{
@@ -295,5 +302,34 @@ html, body {
      opacity: 9;
      transform: translateY(0px);
      transition: all 0.3s;
+
+}
+
+#portfolio {
+
+     background-color: #1c1e26;
+     text-align: center;
+     width: auto;
+     height: auto;
+     background-repeat: no-repeat;
+     line-height: 1.5;
+     transition: .5s ease;
+     position: relative;
+     padding: 8rem;
+     top: 0%;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+.portofolio-cont{
+     position: relative;
+     z-index: 702;
+     display: inline-block;
+     padding: 42px 40px;
+     padding: 4.2rem 4rem;
+     max-width: 722px;
+     color: #fff;
+     opacity: 1;
+      border: 1px solid #FFF;
 
 }
