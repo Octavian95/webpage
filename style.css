@@ -199,8 +199,8 @@ html, body {
 }
  hr.divider{
      position: relative;
-     max-width: 3.25rem;
-     border-width: .2rem;
+     max-width: 4.25rem;
+     border-width: .3rem;
      border-color: #ff4000;
 }
  .my-4{
@@ -262,7 +262,7 @@ html, body {
 
 .light {
      position: relative;
-    max-width: 3.25rem;
+    max-width: 4.25rem;
     border-width: .2rem;
     border-color: #f8f9fa ;
 }
@@ -272,7 +272,7 @@ html, body {
      color: rgba(255,255,255,.5)!important;
      text-align: center!important;
      line-height: 1.5;
-     display: block;
+     
      -webkit-box-sizing: border-box;
      box-sizing: border-box;
      margin: 15%;
@@ -281,7 +281,7 @@ html, body {
 
 
 .secbtn-2{
-
+     text-decoration: none;
      font-size: .85rem;
      font-weight: 700;
      text-transform: uppercase;
@@ -305,31 +305,83 @@ html, body {
 
 }
 
-#portfolio {
 
-     background-color: #1c1e26;
+.about {
+     height: 100%;
+     width: 100%;
+}
+
+
+.up-point{
      text-align: center;
-     width: auto;
-     height: auto;
-     background-repeat: no-repeat;
-     line-height: 1.5;
-     transition: .5s ease;
-     position: relative;
-     padding: 8rem;
-     top: 0%;
-    bottom: 0;
-    left: 0;
-    right: 0
+     color: #444649;
+     font-size: 30pt;
+     font-family: ;
 }
-.portofolio-cont{
-     position: relative;
-     z-index: 702;
-     display: inline-block;
-     padding: 42px 40px;
-     padding: 4.2rem 4rem;
-     max-width: 722px;
-     color: #fff;
-     opacity: 1;
-      border: 1px solid #FFF;
+
+.waypoint-bar{
+  
+     max-width: 4.50rem;
+     border-width: .3rem;
+     border-color: #ff4000;
+}
+ul{
+     font-weight: lighter;
+     font-size: 80px;
+     align-items: center;
+     text-align: center;
+
+
+
 
 }
+
+.row{
+     position: relative ;
+     transform: translate(-53%, -50%);
+     left:50%;
+     margin-top:20%;
+}
+
+ul li {
+     text-align: center !important;
+     list-style: none;
+     margin: 10px 30px;
+     display: inline-block;
+     font-size: 80px;
+     padding: 20px 20px;
+     border: 1px solid rgb(185, 50, 50);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
