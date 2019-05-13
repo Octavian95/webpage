@@ -30,6 +30,7 @@ html, body {
 }
 .noshadow{
      z-index: 1;
+     box-shadow: #212529;
 }
 
  .overlay {
@@ -167,7 +168,7 @@ html, body {
      align-items: center; 
 }
 
- .hero h3{
+ .hero{
      cursor: pointer;
      text-align: center;
      margin: auto;
@@ -177,10 +178,7 @@ html, body {
      margin-bottom: auto;
      font-family: "Merriweather Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
- h3{
-     font-weight: "bold";
-     width: fit-content;
-}
+
  .template{
      margin-right: auto;
      color:#e6e6e6 ;
@@ -306,23 +304,36 @@ html, body {
 }
 
 
-.about {
-     height: 100%;
-     width: 100%;
+.text-center {
+     text-align: center;
+
 }
 
+.up-point{
+     text-align: center;
+     font-size: 30pt;
+     font-family: 'raleway-bold';
+     font-weight: 500;
+     font-family: "Merriweather Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
 
+.waypoint-bar{
 
+     width: 70px;
+     height: 4px;
+     background: #444649;
 
+}
 
-
-
-
-
-
-
-
-
+.row{
+     font-family: 'Raleway'; 
+      text-align: center; 
+      
+      list-style: none;
+      transition: .5s;
+      padding-top: 50px;
+      padding-bottom; 0;
+}
 
 
 
