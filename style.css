@@ -312,46 +312,8 @@ html, body {
 }
 
 
-.up-point{
-     text-align: center;
-     color: #444649;
-     font-size: 30pt;
-     font-family: ;
-}
-
-.waypoint-bar{
-  
-     max-width: 4.50rem;
-     border-width: .3rem;
-     border-color: #ff4000;
-}
-ul{
-     font-weight: lighter;
-     font-size: 80px;
-     align-items: center;
-     text-align: center;
 
 
-
-
-}
-
-.row{
-     position: relative ;
-     transform: translate(-53%, -50%);
-     left:50%;
-     margin-top:20%;
-}
-
-ul li {
-     text-align: center !important;
-     list-style: none;
-     margin: 10px 30px;
-     display: inline-block;
-     font-size: 80px;
-     padding: 20px 20px;
-     border: 1px solid rgb(185, 50, 50);
-}
 
 
 
