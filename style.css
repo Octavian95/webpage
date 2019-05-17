@@ -8,6 +8,7 @@ html, body {
 }
 
  body {
+      overflow-x: hidden;
       margin: 0% !important;
      line-height: 1.72857143 !important;
      background-size: cover;
@@ -92,14 +93,14 @@ html, body {
 
    .active {
      color: #f4623a;
-     margin-left: 20%;
+
      font-weight: 700;
    }
 
 
    
    .topnav-news{
-      margin-right: 20% ;
+  
      float: right !important;
      color: steelblue;
      
@@ -130,7 +131,7 @@ html, body {
    }
    
    @media screen and (max-width: 900px) {
-     .topnav.responsive {position: relative;}
+     .topnav.responsive {position: relative; display: grid; }
      .topnav.responsive .icon {
        position: absolute;
        right: 0;
