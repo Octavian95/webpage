@@ -12,7 +12,7 @@
 
    <body>
       <header>
-         <nav class="nav-bar1" role='navigation'>
+         <nav class="nav-bar1" role='navigation' id="dropdown">
             <div class="topnav" id="myTopnav">
                <a href="#home" class="active">Home</a>
                <a href="#news" class=" topnav-news ">News</a>
@@ -41,8 +41,8 @@
             </div>
             <div class="mid-page">
                   <div class="mid-text1">
-                     <h1 class="h1-class" href="http://findmatthew.com/" >https://www.youtube.com/watch?v=KFUPg7IpwRg  
-                           Check My C.V. Check out this amaizing website  http://findmatthew.com/
+                     <h1 class="h1-class" href="http://findmatthew.com/" >  
+                           Check My C.V.
                         </h1>
                      <a class="btn-1" href="http://findmatthew.com/" >Find Out More</a>
                   </div>
@@ -62,7 +62,7 @@
                            Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!
                      </p>
                      <center>
-                     <a class="secbtn-2" href="https://blackrockdigital.github.io/startbootstrap-creative/"> Get started!</a>
+                     <a class="secbtn-2" href="https://www.youtube.com/watch?v=KFUPg7IpwRg"> Get started!</a>
                   </center>
                   </div>
                </div>
@@ -133,18 +133,33 @@
            }
          }
          </script>
-         <script>
+         
+         <!--<script>
          window.onscroll = function() {myFunction()};
 
-function myFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+         function myFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 50) {
     document.getElementById("myTopnav").className = "topnav";
   } else {
     document.getElementById("myTopnav").className = "";
   }
 }
          
-         </script>
-
+         </script>-->
+         <script>
+            // When the user scrolls down 20px from the top of the document, slide down the navbar
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+                document.getElementById("myTopnav").style.top = "0";
+              } else {
+                document.getElementById("myTopnav").style.top = "-50px";
+              }
+            }
+            </script>
+            
+            </body>
+            </html>
    </body>
 </html>
