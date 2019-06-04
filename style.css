@@ -62,14 +62,7 @@ header {
 	position: fixed !important;
 	transition: background-color 0.6s ease;
 }
-a {
-	padding-bottom: 20px;
-	padding-top: 20px;
-	overflow: hidden;
-	background-color: #ffff;
-	z-index: 2;
-	position: relative;
-}
+
 .topnav a {
 	float: left;
 	display: block;
@@ -250,10 +243,10 @@ a {
 	font-size: .85rem;
 	font-weight: 700;
 	text-transform: uppercase;
-	border: none;
-	border-radius: 10rem;
-	display: inline-block;
-	padding: 1.25rem 2.25rem;
+
+
+	text-align: center;
+
 	background-color: #ffffff;
 	cursor: pointer;
 	color: #2c2f31;
