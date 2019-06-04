@@ -9,7 +9,7 @@ body {
 }
 body {
 	overflow-x: hidden;
-	margin: 0% !important;
+
 	line-height: 1.72857143 !important;
 	background-size: cover;
 	background-position: center;
@@ -43,7 +43,7 @@ header {
 .over-lay1 {
 	margin-top: 70px;
 	position: absolute;
-	top: 0;
+
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -56,11 +56,11 @@ header {
 	padding-left: 15%;
 	padding-right: 15%;
 	overflow: hidden;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(118, 92, 86, 0.05);
 	width: 100%;
 	z-index: 2;
 	position: fixed !important;
-	transition: background-color 0.6s ease;
+	transition: background-color 0.4s ease;
 }
 
 .topnav a {
@@ -133,14 +133,7 @@ header {
 	margin: auto;
 	width: fit-content;
 }
-/*.avatar-img img {
-     border-radius: 50px;
-     
-          transition-timing-function: ease-in;
-        
 
-
-}*/
 .my-container {
 	background-image: url("Images/pic2.jpg");
 	background-repeat: no-repeat;
@@ -204,15 +197,11 @@ header {
 	transform: translateY(0px);
 	transition: all 0.5s;
 }
+/* Fisrt section starts here*/
+
 .page-section {
-	top: 0%;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: auto;
-	width: auto;
 	transition: .5s ease;
-	position: relative;
+
 	padding: 8rem;
 	background-color: #00c1af!important;
 	font-family: sans-serif;
@@ -235,22 +224,23 @@ header {
 	color: rgba(255, 255, 255, .5)!important;
 	text-align: center!important;
 	line-height: 1.5;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-.secbtn-2 {
-	text-decoration: none;
-	font-size: .85rem;
-	font-weight: 700;
-	text-transform: uppercase;
 
+.secbtn-2{
 
-	text-align: center;
-
-	background-color: #ffffff;
 	cursor: pointer;
-	color: #2c2f31;
+	padding-top: 1rem;
+    padding-right: 2.25rem;
+    padding-bottom: 1rem;
+    padding-left: 2.25rem;
+	border-radius: 40px;
+	background-color: #f8f9fa;
+	display: inline-block;
+	position: relative;
+	text-align: center;
 }
+
 .secbtn-2:hover {
 	text-decoration: none;
 	color: #ff5100;
@@ -258,6 +248,8 @@ header {
 	transform: translateY(0px);
 	transition: all 0.3s;
 }
+/* first section finished here*/
+
 .about {
 	margin: 0 auto;
 	max-width: 1200px;
