@@ -37,6 +37,7 @@ header {
 	background-position: center;
 }
 .noshadow-1 {
+	margin-top: 80px;
 	z-index: 1;
 	box-shadow: #212529;
 }
@@ -177,6 +178,7 @@ header {
 	border-color: #ff4000;
 }
 .btn-1 {
+	margin-top: 80px;
 	padding: 1.25rem 2.25rem;
 	color: white;
 	text-decoration: none;
@@ -219,7 +221,8 @@ header {
 	border-color: #f8f9fa;
 }
 .Section-p {
-
+	margin-left: 10%; 
+	margin-right: 10%;
 	margin-top: 2.5rem!important;
 	margin-bottom: 2.5rem!important;
 	color: rgba(255, 255, 255, .5)!important;
@@ -253,12 +256,8 @@ header {
 
 .about {
 background-color: #2f4b66;
+	padding-top: 5%; 
 
-	padding-top: 5rem;
-	padding-left: 15rem;
-	padding-right: 15rem;
-	padding-bottom: 22rem;
-	margin: 0 auto;
 	display: inline-block;
 	width: 100%;
 
@@ -285,10 +284,18 @@ background-color: #2f4b66;
 	text-align: center;
 	list-style: none;
 	transition: .5s;
+	margin-right:10% ;
+	margin-left:10%;
+
 
 
 
 }
 .text-mut{
 	color: #8fa1b4;
+	padding: 2% 10%;
+}
+.h4-mb-2{
+
+	font-family: bold;
 }
