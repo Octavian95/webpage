@@ -255,7 +255,7 @@ header {
 /* first section finished here*/
 
 .about {
-background-color: #2f4b66;
+	background-color: #e6e6e6;
 	padding-top: 5%; 
 
 	display: inline-block;
@@ -277,7 +277,7 @@ background-color: #2f4b66;
 	background: #8fa1b4;
 }
  .row {
-	 color: #8fa1b4;
+	 color: black;
 	flex-direction: row !important;
 	display: flex;
 	font-family: 'Raleway';
@@ -298,4 +298,8 @@ background-color: #2f4b66;
 .h4-mb-2{
 
 	font-family: bold;
+}
+.flex .flex-50-gt-sm{
+	display: flex;
+    flex-direction: column;
 }
