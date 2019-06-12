@@ -303,3 +303,8 @@ header {
 	display: flex;
     flex-direction: column;
 }
+.skillss-wrapper{
+	align-items: flex-start;
+	width: 100%;
+	flex-direction: column;
+}
