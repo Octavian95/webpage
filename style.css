@@ -255,13 +255,14 @@ header {
 /* first section finished here*/
 
 .about {
-	background-color: #e6e6e6;
-	padding-top: 5%; 
-
+	position: absolute;
+	padding-block-start: 10%;
+	height: 100%;
 	display: inline-block;
 	width: 100%;
-
+	transition: .5s ease; 
 }
+
 .up-point {
 
 	text-align: center;
@@ -286,25 +287,64 @@ header {
 	transition: .5s;
 	margin-right:10% ;
 	margin-left:10%;
-
-
-
-
 }
-.text-mut{
-	color: #8fa1b4;
-	padding: 2% 10%;
-}
-.h4-mb-2{
 
-	font-family: bold;
+table {
+	margin-right: 5%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 35%;
+	float: right;
+	margin-top: 10%;
+
+	
+  
+  }
+  .html-skills { 
+  background: linear-gradient(
+	  to left, 
+	  #eee 10%, 
+	  #e9d9d9 30%, 
+	  #00A1A7 10%, 
+	  #00A1A7 50%
+	);
+	border: 1px solid black;
+  }
+  .css-skills { 
+  background: linear-gradient(
+	  to left, 
+	  #eee 40%, 
+	  #ff9e2c 30%, 
+	  #00A1A7 10%, 
+	  #00A1A7 50%
+	);
+	border: 1px solid black;
+  }
+  .Java-script-skills { 
+  background: linear-gradient(
+	  to left, 
+	  #eee 70%, 
+	  #ff9e2c 30%, 
+	  #00A1A7 10%, 
+	  #00A1A7 50%
+	);
+	border: 1px solid black;
+  }
+  
+  
+  th, td,  {
+	text-align: left;
+	padding: 5px;
+	
+  }
+  .procent-1{
+	float: right;
+    
 }
-.flex .flex-50-gt-sm{
-	display: flex;
-    flex-direction: column;
-}
-.skillss-wrapper{
-	align-items: flex-start;
-	width: 100%;
-	flex-direction: column;
+
+  
+.lanuage-2{
+	background-color: #04C2C9;
+    width: 15%;
+    text-align: center;
 }
