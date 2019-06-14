@@ -277,10 +277,10 @@ header {
 	height: 4px;
 	background: #8fa1b4;
 }
- .row {
+ .row-w {
 	 color: black;
 	flex-direction: row !important;
-	display: flex;
+	display: flow-root;
 	font-family: 'Raleway';
 	text-align: center;
 	list-style: none;
@@ -289,62 +289,70 @@ header {
 	margin-left:10%;
 }
 
-table {
-	margin-right: 5%;
-	border-collapse: collapse;
-	border-spacing: 0;
-	width: 35%;
-	float: right;
-	margin-top: 10%;
 
-	
-  
-  }
-  .html-skills { 
-  background: linear-gradient(
-	  to left, 
-	  #eee 10%, 
-	  #e9d9d9 30%, 
-	  #00A1A7 10%, 
-	  #00A1A7 50%
-	);
-	border: 1px solid black;
-  }
-  .css-skills { 
-  background: linear-gradient(
-	  to left, 
-	  #eee 40%, 
-	  #ff9e2c 30%, 
-	  #00A1A7 10%, 
-	  #00A1A7 50%
-	);
-	border: 1px solid black;
-  }
-  .Java-script-skills { 
-  background: linear-gradient(
-	  to left, 
-	  #eee 70%, 
-	  #ff9e2c 30%, 
-	  #00A1A7 10%, 
-	  #00A1A7 50%
-	);
-	border: 1px solid black;
-  }
-  
-  
-  th, td,  {
-	text-align: left;
-	padding: 5px;
-	
-  }
-  .procent-1{
-	float: right;
-    
-}
 
-  
-.lanuage-2{
-	background-color: #04C2C9;
-    width: 15%;
-    text-align: center;
-}
+
+
+.html-skills { 
+	background: linear-gradient(
+		to left, 
+		
+	
+		#eee 40%, 
+		#ff9e2c 30%, 
+		#00A1A7 10%, 
+		#00A1A7 50%
+			
+	  );
+	
+		border: 1px solid black;
+	
+	}
+	
+	
+	.css-skills { 
+	background: linear-gradient(
+		to left, 
+		
+		
+		#eee 50%, 
+		#ff9e2c 30%, 
+		#00A1A7 10%, 
+		#00A1A7 50%
+	  );
+	  border: 1px solid black;
+	}
+	.Java-script-skills { 
+	background: linear-gradient(
+		to left, 
+		#eee 70%, 
+		#ff9e2c 30%, 
+		#00A1A7 10%, 
+		#00A1A7 50%
+	  );
+	  border: 1px solid black;
+	}
+	
+	
+	li, ul,  {
+	
+	  
+	  
+	}
+	.procent-1{
+	  text-align: left;
+	  padding: 5px;
+		
+	}
+	.lanuage-2{
+		background-color: #04C2C9;
+	  text-align: center;
+	
+	
+	}
+	.all-div{
+		float: right;
+		  text-align: left;
+		width:30%;
+	}
+	
