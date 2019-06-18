@@ -261,6 +261,7 @@ header {
 	display: inline-block;
 	width: 100%;
 	transition: .5s ease; 
+	flex-direction: row !important;
 }
 
 .up-point {
@@ -279,8 +280,8 @@ header {
 }
  .row-w {
 	 color: black;
-	flex-direction: row !important;
-	display: flow-root;
+
+	display: block;
 	font-family: 'Raleway';
 	text-align: center;
 	list-style: none;
@@ -288,71 +289,95 @@ header {
 	margin-right:10% ;
 	margin-left:10%;
 }
-
-
-
-
-
-.html-skills { 
-	background: linear-gradient(
-		to left, 
-		
-	
-		#eee 40%, 
-		#ff9e2c 30%, 
-		#00A1A7 10%, 
-		#00A1A7 50%
-			
-	  );
-	
-		border: 1px solid black;
-	
+@media  only screen and (max-width: 1600px),
+(min-device-width: 1600px) and (max-device-width: 960px){
+	.row-w{
+		display: contents;
+		flex-direction: row;
 	}
+}
+.text-mut{
 	
-	
-	.css-skills { 
-	background: linear-gradient(
-		to left, 
-		
-		
-		#eee 50%, 
-		#ff9e2c 30%, 
-		#00A1A7 10%, 
-		#00A1A7 50%
-	  );
+}
+
+
+
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 50%;
+	float: right;
+	margin:50px 20px auto;
+	line-height: 160%;
+  
+  }
+  
+  
+  
+  .html-skills { 
+  background: linear-gradient(
+	  to left, 
+	  
+  
+	  #eee 40%, 
+	  #ff9e2c 30%, 
+	  #00A1A7 10%, 
+	  #00A1A7 50%
+		  
+	);
+  
 	  border: 1px solid black;
-	}
-	.Java-script-skills { 
-	background: linear-gradient(
-		to left, 
-		#eee 70%, 
-		#ff9e2c 30%, 
-		#00A1A7 10%, 
-		#00A1A7 50%
-	  );
-	  border: 1px solid black;
-	}
-	
-	
-	li, ul,  {
-	
+  
+  }
+  
+  
+  .css-skills { 
+  background: linear-gradient(
+	  to left, 
 	  
 	  
-	}
-	.procent-1{
-	  text-align: left;
-	  padding: 5px;
-		
-	}
-	.lanuage-2{
-		background-color: #04C2C9;
-	  text-align: center;
+	  #eee 50%, 
+	  #ff9e2c 30%, 
+	  #00A1A7 10%, 
+	  #00A1A7 50%
+	);
+	border: 1px solid black;
+  }
+  .Java-script-skills { 
+  background: linear-gradient(
+	  to left, 
+	  #eee 70%, 
+	  #ff9e2c 30%, 
+	  #00A1A7 10%, 
+	  #00A1A7 50%
+	);
+	border: 1px solid black;
+  }
+  
+  
+  tr, td,  {
+	text-align: left;
+	padding: 5px;
 	
 	
-	}
-	.all-div{
-		float: right;
-		  text-align: left;
-		width:30%;
-	}
+  }
+  .procent-1{
+	  float: right;
+	  
+  }
+  .lanuage-2{
+	  background-color: #04C2C9;
+	  width: 15%;
+	  text-alight: center;
+  }
 	
+  
+  @media  only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px){
+	
+	
+}
+
+
