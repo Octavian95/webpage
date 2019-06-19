@@ -289,27 +289,23 @@ header {
 	height: 4px;
 	background: #8fa1b4;
 }
- .row-w {
-	 color: black;
-
+ .row {
+	color: black;
 	display: block;
 	font-family: 'Raleway';
 	text-align: center;
 	list-style: none;
 	transition: .5s;
-	margin-right:10% ;
-	margin-left:10%;
+
 }
-@media  only screen and (max-width: 1600px),
-(min-device-width: 1600px) and (max-device-width: 960px){
-	.row-w{
-		display: contents;
-		flex-direction: row;
+@media only screen and (max-width: 768px) {
+	.row {
+		padding: 5rem;
+		width: 100%;
 	}
 }
-.text-mut{
-	
-}
+
+
 
 
 
