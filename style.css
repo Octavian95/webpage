@@ -208,6 +208,17 @@ header {
 	background-color: #4a6b91!important;
 	font-family: sans-serif;
 }
+@media only screen and (max-width: 992px) {
+	.page-section {
+		padding: 3rem;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.page-section {
+		padding: 2rem;
+	}
+}
 .whitetext {
 	font-size: 2rem;
 	font-weight: 500;
