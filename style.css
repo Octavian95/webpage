@@ -266,6 +266,7 @@ header {
 /* first section finished here*/
 
 .about {
+	background-color: #55a096;
 	position: absolute;
 	padding-block-start: 10%;
 	height: 100%;
@@ -273,6 +274,16 @@ header {
 	width: 100%;
 	transition: .5s ease; 
 	flex-direction: row !important;
+}
+@media only screen and (max-width: 768px) {
+	.about {
+		padding: 2rem;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.about {
+		padding: 3rem;
+	}
 }
 
 .up-point {
@@ -300,10 +311,21 @@ header {
 }
 @media only screen and (max-width: 768px) {
 	.row {
-		padding: 5rem;
-		width: 100%;
+		padding: 3rem;
 	}
 }
+@media only screen and (max-width: 992px) {
+	.row {
+		padding: 3rem;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.flex-a {
+		padding: 2rem;
+
+	}
+}
+
 
 
 
@@ -314,7 +336,7 @@ header {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-	width: 50%;
+	width: max-content;
 	float: right;
 	margin:50px 20px auto;
 	line-height: 160%;
@@ -380,6 +402,21 @@ table {
 	  text-alight: center;
   }
 	
+  
+  @media only screen and (max-width: 2492px) {
+	.text-mut{
+		margin-left: 80px;
+		margin-right: 80px;
+	  }
+}
+@media only screen and (max-width: 1360px) {
+	.text-mut{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+
   
   @media  only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px){
