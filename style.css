@@ -158,7 +158,7 @@ header {
 .mid-page {
 	margin-right: auto;
 	color: #e6e6e6;
-	width: 50%;
+
 	text-align: center!important;
 	margin-top: 40px;
 	margin-left: auto;
@@ -268,10 +268,10 @@ header {
 .about {
 	background-color: #55a096;
 	position: absolute;
-	padding-block-start: 10%;
 
+	padding: 8rem;
 	display: inline-block;
-	width: 100%;
+	width: calc(100% - 15px);
 	transition: .5s ease; 
 	flex-direction: row !important;
 }
@@ -285,6 +285,7 @@ header {
 		padding: 3rem;
 	}
 }
+
 
 .up-point {
 
@@ -323,11 +324,14 @@ header {
 	.flex-a {
 		padding: 2rem;
 
+
 	}
 }
 
 
-
+.flex-a{
+	padding-block-start: 10px;
+}
 
 
 
@@ -417,16 +421,18 @@ table {
 }
 @media only screen and (max-width: 1660px) {
 	.text-mut{
-		margin-left: 10px;
-		margin-right: 10px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+@media only screen and (max-width: 760px) {
+	.text-mut{
+		margin-left: -40px;
+		margin-right: -40px;
 	}
 }
 
   
-  @media  only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px){
-	
-	
-}
+
 
 
